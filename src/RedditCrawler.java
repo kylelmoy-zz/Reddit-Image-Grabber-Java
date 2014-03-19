@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import com.eclipsesource.json.JsonArray;
 import com.eclipsesource.json.JsonObject;
 
-public class RedditHarvester {
+public class RedditCrawler {
 	final static String CLIENT_ID = "client_id_here"; //Vindicator's Reddit Creepy Crawly
 	static ArrayList<RedditItem> items = new ArrayList<RedditItem>();
 	public static void harvest(String sub, String limit) throws Exception{
